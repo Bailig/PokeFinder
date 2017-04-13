@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0268430B1E9F409B006106EE /* PokemonAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0268430A1E9F409B006106EE /* PokemonAnnotation.swift */; };
 		029FA1471E9DB891001CC4EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029FA1461E9DB891001CC4EB /* AppDelegate.swift */; };
 		029FA1491E9DB891001CC4EB /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 029FA1481E9DB891001CC4EB /* MainViewController.swift */; };
 		029FA14C1E9DB891001CC4EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 029FA14A1E9DB891001CC4EB /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0268430A1E9F409B006106EE /* PokemonAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PokemonAnnotation.swift; sourceTree = "<group>"; };
 		029FA1431E9DB891001CC4EB /* PokeFinder.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PokeFinder.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		029FA1461E9DB891001CC4EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		029FA1481E9DB891001CC4EB /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
@@ -42,6 +44,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		026843081E9F406F006106EE /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0268430A1E9F409B006106EE /* PokemonAnnotation.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		026843091E9F4077006106EE /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				029FA1481E9DB891001CC4EB /* MainViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
 		029FA13A1E9DB891001CC4EB = {
 			isa = PBXGroup;
 			children = (
@@ -63,8 +81,9 @@
 		029FA1451E9DB891001CC4EB /* PokeFinder */ = {
 			isa = PBXGroup;
 			children = (
+				026843091E9F4077006106EE /* Controller */,
+				026843081E9F406F006106EE /* Model */,
 				029FA1461E9DB891001CC4EB /* AppDelegate.swift */,
-				029FA1481E9DB891001CC4EB /* MainViewController.swift */,
 				029FA14A1E9DB891001CC4EB /* Main.storyboard */,
 				029FA14D1E9DB891001CC4EB /* Assets.xcassets */,
 				029FA14F1E9DB891001CC4EB /* LaunchScreen.storyboard */,
@@ -217,6 +236,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				029FA1491E9DB891001CC4EB /* MainViewController.swift in Sources */,
+				0268430B1E9F409B006106EE /* PokemonAnnotation.swift in Sources */,
 				029FA1471E9DB891001CC4EB /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
